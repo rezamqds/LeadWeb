@@ -1,0 +1,11 @@
+h1, h2, p {
+    text-align: center;
+    color: red;
+  }
+
+  #myname {
+    text-shadow: 2%;
+    text-align: center;
+    color: blueviolet;
+    
+  }
