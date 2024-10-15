@@ -29,3 +29,28 @@ body {
 .btn-primary:hover {
     background-color: #004080;
 }
+
+
+.hero-section {
+    background: url('about-us-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.values-icon {
+    font-size: 2rem;
+    color: #0056b3;
+}
