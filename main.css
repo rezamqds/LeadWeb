@@ -6,7 +6,7 @@ body {
 .header-bg {
     background: url('header-bg.jpg') no-repeat center center;
     background-size: cover;
-    color: #fff;
+    color: #00a799;
     padding: 60px 0;
 }
 
@@ -34,7 +34,7 @@ body {
 .hero-section {
     background: url('about-us-bg.jpg') no-repeat center center;
     background-size: cover;
-    color: #fff;
+    color: #00a799;
     padding: 60px 0;
     text-align: center;
 }
