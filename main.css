@@ -4,10 +4,59 @@ body {
 }
 
 .header-bg {
-    background: url('header-bg.jpg') no-repeat center center;
+    background: url('WWW/banner.png') no-repeat center center;
     background-size: cover;
     color: #00a799;
     padding: 60px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.header-bg > * {
+    position: relative;
+    z-index: 2;
+}
+.header-bg h1,
+.header-bg p {
+    position: relative;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.header-bg h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.header-bg p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #ffff;
+}
+
+.header-bg .container {
+    padding: 60px 20px;
+}
+
+@media (max-width: 768px) {
+    .header-bg h1 {
+        font-size: 2rem;
+    }
+
+    .header-bg p {
+        font-size: 1rem;
+    }
 }
 
 .feature-icon {
