@@ -4,7 +4,7 @@ body {
 }
 
 .header-bg {
-    background: url('WWW/banner.png') no-repeat center center;
+    background: url('WWW/Banner-HeaderBG.avif') no-repeat center center;
     background-size: cover;
     color: #00a799;
     padding: 60px 0;
